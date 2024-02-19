@@ -13,3 +13,31 @@
  *= require_tree .
  *= require_self
  */
+
+ .form-group {
+  margin-left: 20px;
+  margin-bottom: 30px;
+ }
+
+ #title {
+  margin-top: 20px;
+ }
+
+ #button {
+  background-color: blue;
+  color: white;
+  margin-right: 0; /* Supprimer la marge à droite de l'input */
+  margin-left: 0;
+ }
+
+ .answer {
+  margin-left: 20px;
+  background-color: blanchedalmond;
+  margin-right: 300px;
+ }
+
+ .link {
+  margin-left: 20px;
+  color: inherit; /* Utilise la couleur héritée (par défaut du navigateur) */
+  text-decoration: none;
+ }
